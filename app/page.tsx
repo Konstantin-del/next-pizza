@@ -1,10 +1,17 @@
 
+import { Container, Title, TopBar } from "@/components/shared";
+
+
+
 
 
 export default function Home() {
   return (
     <>
-    <h1>HOME</h1>
+      <Container className="mt-10">
+        <Title text='All pizza' size='lg' className="font-extrabold" />
+        <TopBar />
+      </Container>
     </>
   );
 }

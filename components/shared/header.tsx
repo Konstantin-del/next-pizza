@@ -30,7 +30,7 @@ export const Header:React.FC<Props> = ({ className }) =>{
                 <User size={16} />
                 to come in</Button>
                 <div>
-                  <Button className='group   relative'>
+                  <Button className='group relative'>  {/* group связывает родителя и чаелда, см ниже */}
                     <b>
                       20$ 
                     </b>
